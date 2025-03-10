@@ -8,9 +8,11 @@ A cyberpunk-themed shooting gallery game built with Pygame.
 
 CYBER RANGE 2099 is a retro-futuristic target shooting game with a cyberpunk aesthetic. In a neon-lit digital grid, players must eliminate holographic targets with precision while managing their ammunition and accuracy. The game features increasing difficulty across multiple waves, dynamic targets, and an immersive synthwave atmosphere.
 
-## 📷 Game Screenshots
+## 🎥 Demo Video
+[![CYBER RANGE 2099 Gameplay](https://img.youtube.com/vi/3q_sctsrd08/maxresdefault.jpg)](https://www.youtube.com/watch?v=3q_sctsrd08)
 
-![CYBER RANGE 2099 Screenshot 1](0.png)
+
+## 📷 Screenshots
 
 ![CYBER RANGE 2099 Screenshot 2](1.png)
 
