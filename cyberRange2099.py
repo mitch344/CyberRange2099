@@ -4,11 +4,21 @@ import sys
 import math
 from pygame import mixer
 
+FULLSCREEN = False
+
 pygame.init()
 
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("CYBER RANGE 2099")
+
+def toggle_fullscreen():
+    global FULLSCREEN, screen
+    FULLSCREEN = not FULLSCREEN
+    if FULLSCREEN:
+        screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)
+    else:
+        screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
@@ -802,6 +812,8 @@ def main():
                         current_intro_text = 0
                     else:
                         game.reload()
+                if event.key == pygame.K_F11:
+                    toggle_fullscreen()
                 if show_intro:
                     show_intro = False
                         
